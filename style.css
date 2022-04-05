@@ -17,7 +17,7 @@
 
 .logoBi img {
     max-width: 20%;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 
@@ -25,6 +25,29 @@ ul {
     display: none;
 }
 
+
+.head-bottom {
+    background-color: #2b4fa2;
+}
+
+.NavIcon {
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 8px white;
+    padding-left: 10px;
+}
+
+.logoAB {
+    display: block;
+    text-align: right;
+}
+
+.logoAB img {
+    max-width: 40%;
+    padding-top: 5px;
+    padding-right: 5px;
+}
 
 
 /*--------------
@@ -45,6 +68,10 @@ ul {
 
     .logoA {
         display: block;
+    }
+
+    .logoAB {
+        display: none;
     }
 
     .logoB {
