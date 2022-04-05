@@ -49,6 +49,24 @@ ul {
     padding-right: 5px;
 }
 
+main {
+    min-height: 85vh;
+    background-image: url("../Img/sky.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.inputArea {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+    font-size: 14px;
+    padding: 12px 20px;
+}
+
+
 
 /*--------------
    RESPONSIVE
@@ -111,6 +129,12 @@ ul {
 
     .head-bottom {
         background-color: #2b489d;
+    }
+
+    input[type=text] {
+        font-size: 14px;
+        padding: 12px 20px;
+        width: 90%;
     }
 
 }
